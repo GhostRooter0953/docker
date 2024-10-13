@@ -1,7 +1,7 @@
 ---
-- name: Copy docker.json with proxy
+- name: Copy daemon.json with proxy
   copy:
-    src: files/docker.json
+    src: files/daemon.json
     dest: /etc/docker/daemon.json
     mode: 0644
 
